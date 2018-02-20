@@ -277,14 +277,14 @@ Creating a Pull Request
 
 The first line in a Pull Request(PR) message is an imperative statement briefly explaining what the PR is achieving.
 If the PR fixes a bug, or implements a new feature as requested from the [JIRA](http://hub.spigotmc.org/jira/), then it should reference that ticket.
-This is accomplished by simply type SPIGOT-####, where #### is the ticket number. (i.e. SPIGOT-3510).
-You can reference multiple tickets in a single commit message; for example: "SPIGOT-1, SPIGOT-2" without closing punctuation.
+This is accomplished by simply type OILSPIGOT-####, where #### is the ticket number. (i.e. SPIGOT-3510).
+You can reference multiple tickets in a single commit message; for example: "OILSPIGOT-1, OILSPIGOT-2" without closing punctuation.
 
 __For Example:__
-* SPIGOT-3510: Velocity broken for certain entities
-* MC-111753, SPIGOT-2971: Brewing stand not reloading
+* OILSPIGOT-1: Modded items disappear
+* MC-111753, SPIGOT-3510, OILSPIGOT-2971: Brewing stand not reloading
 
-As you can see, Minecraft tickets can be referenced by including the appropriate ticket number (i.e. MC-111753)
+As you can see, Minecraft or Spigot tickets can be referenced by including the appropriate ticket number (i.e. MC-111753)
 
 ##### Pull Request Message Expectations
 
